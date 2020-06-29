@@ -7,11 +7,13 @@ import { MessageButtonComponent } from './message-button/message-button.componen
 import { JokesService } from './services/jokes.service';
 
 import { HttpClientModule }    from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MessageButtonComponent
+    MessageButtonComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
